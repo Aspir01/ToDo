@@ -1,0 +1,101 @@
+.taskList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 160px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    width: 40%;
+    cursor: pointer;
+}
+
+.task.active {
+    background-color: #63d563;
+}
+
+.task.active p,
+.task.active h3 {
+    text-decoration: line-through;
+}
+
+.task p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+h3 {
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btns.two {
+    width: 41%;
+}
+
+.btns button {
+    width: 28%;
+    color: white;
+    transition: 0.3s;
+}
+
+.btns.two button {
+    background-color: #1310b6;
+    font-size: 15px;
+}
+
+.btns.two button:hover {
+    background-color: #0b0965;
+}
+
+.complete {
+    background-color: #1310b6;
+}
+
+.complete:hover {
+    background-color: #100e60;
+}
+
+.delete {
+    background: #901515;
+}
+
+.delete:hover {
+    background: #510707;
+}
+
+.edit {
+    background-color: #bab400;
+}
+
+.edit:hover {
+    background-color: #747012;
+}
+
+.editing {
+    width: 96%;
+    border: 2px solid black;
+}
+
+.editSave {
+    color: white;
+    background-color: #1310b6;
+    height: 80px !important;
+    width: 20%;
+    margin: 0 auto;
+}

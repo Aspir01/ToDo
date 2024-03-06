@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input,
+textarea {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+input {
+    width: 40%;
+}
+
+textarea {
+    margin: 10px 0;
+    height: 120px;
+    margin: 15px 0;
+    width: 39.8%;
+    resize: none;
+}
+
+.addTask {
+    color: white;
+    background-color: #10b64d;
+    width: 28%;
+    height: 50px;
+    font-size: 150%;
+    margin: 20px 0;
+    transition: 0.2s;
+}
+
+.addTask:hover {
+    background-color: #0d692f;
+}
